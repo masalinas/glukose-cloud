@@ -6,7 +6,7 @@ A light web solution to parse and manage the measures captured by glukose-servic
 
 The Node-red flow measure parser
 
-![capture_glukose_02](https://cloud.githubusercontent.com/assets/1216181/13285545/78ecceb8-dafb-11e5-8044-b4c04623b7f4.png)
+![glukose-cloud-node](https://cloud.githubusercontent.com/assets/1216181/14145834/9d645260-f695-11e5-92ce-a5cb55e63204.png)
 
 # Infraestructure Techonologies:
 
