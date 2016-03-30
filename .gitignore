@@ -26,8 +26,16 @@ build/Release
 # Dependency directory
 node_modules
 
+# Bower Dependency directory
+client/bower_components
+
 # Optional npm cache directory
 .npm
 
 # Optional REPL history
 .node_repl_history
+
+.DS_Store
+.idea
+.project
+.strong-pm
