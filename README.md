@@ -43,6 +43,27 @@ The Cloud node-RED Designer
 
 # Installation:
 
+Install mosca message broker with bunyan logger and start it:
+```
+  npm install mosca bunyan -g
+  mosca -v | bunyan
+  
+      +++.+++:   ,+++    +++;   '+++    +++. 
+      ++.+++.++   ++.++  ++,'+  `+',++  ++,++ 
+      +`  +,  +: .+  .+  +;  +; '+  '+  +`  +` 
+      +`  +.  +: ,+  `+  ++  +; '+  ;+  +   +. 
+      +`  +.  +: ,+  `+   +'    '+      +   +. 
+      +`  +.  +: ,+  `+   :+.   '+      +++++. 
+      +`  +.  +: ,+  `+    ++   '+      +++++. 
+      +`  +.  +: ,+  `+     ++  '+      +   +. 
+      +`  +.  +: ,+  `+  +:  +: '+  ;+  +   +. 
+      +`  +.  +: .+  .+  +;  +; '+  '+  +   +. 
+      +`  +.  +:  ++;++  ++'++   ++'+'  +   +. 
+      +`  +.  +:   +++    +++.   ,++'   +   +. 
+[2016-03-30T12:56:57.005Z]  INFO: mosca/14565 on miguel-Dell-System-XPS-L502X: server started (mqtt=1883)
+
+```
+
 Execute npm to install node packages:
 ```
   npm install
@@ -55,17 +76,17 @@ Execute bower to install ui packages:
 
 Access Web Glukose
 ```
-  http://localhost:2000
+  http://localhost:4000
 ```
 
 Access Web Glukose JSON API Back-end
 ```
-  http://localhost:2000/export
+  http://localhost:4000/export
 ```
 
 Access Node-Red Web designer
 ```
-  http://localhost:2000/red
+  http://localhost:4000/red
 ```
 
 Copy and import this flow from node-red import clipboard
