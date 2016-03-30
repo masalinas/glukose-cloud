@@ -1,6 +1,6 @@
-# Glukose
+# Glukose Cloud
 
-A light web solution to parse and manage the measures captured by glukose-service using IBM node-red tool to parse the JSON input measures.
+A Hub PaaS solution to concentrate all measures captured by glukose-gateway using IBM node-red tool and Mqtt IBM protocol to capture then
 
 ![glukose_2](https://cloud.githubusercontent.com/assets/1216181/13421902/9000ee1e-df91-11e5-9011-d8d80994b479.png)
 
