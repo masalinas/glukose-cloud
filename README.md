@@ -2,7 +2,7 @@
 
 A Hub PaaS solution to concentrate all measures captured by glukose-gateway using IBM node-red tool and Mqtt IBM protocol to capture then
 
-![glukose_2](https://cloud.githubusercontent.com/assets/1216181/13421902/9000ee1e-df91-11e5-9011-d8d80994b479.png)
+![glukose_cloud_app](https://cloud.githubusercontent.com/assets/1216181/14146100/c60518c0-f696-11e5-93e1-1eb91aaceb3f.png)
 
 The Node-red flow measure parser
 
