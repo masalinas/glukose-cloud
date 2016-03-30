@@ -14,6 +14,8 @@ The Cloud node-RED Designer
 - [ExpressJS](http://expressjs.com): Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 - [MongoDb](https://www.mongodb.org/):MongoDB is the next-generation database that lets you create applications never before possible.
 - [Node-Red](http://nodered.org/): A visual tool for wiring the Internet of Things.
+- [Mosca](https://github.com/mcollina/mosca/): MQTT broker as a module http://mosca.io
+- [Bunyan](https://github.com/trentm/node-bunyan): a simple and fast JSON logging module for node.js services
 
 # Backend Techonologies:
 
@@ -47,19 +49,19 @@ Install mosca message broker with bunyan logger and start it:
 ```
   npm install mosca bunyan -g
   mosca -v | bunyan
-  
-      +++.+++:   ,+++    +++;   '+++    +++. 
-      ++.+++.++   ++.++  ++,'+  `+',++  ++,++ 
-      +`  +,  +: .+  .+  +;  +; '+  '+  +`  +` 
-      +`  +.  +: ,+  `+  ++  +; '+  ;+  +   +. 
-      +`  +.  +: ,+  `+   +'    '+      +   +. 
-      +`  +.  +: ,+  `+   :+.   '+      +++++. 
-      +`  +.  +: ,+  `+    ++   '+      +++++. 
-      +`  +.  +: ,+  `+     ++  '+      +   +. 
-      +`  +.  +: ,+  `+  +:  +: '+  ;+  +   +. 
-      +`  +.  +: .+  .+  +;  +; '+  '+  +   +. 
-      +`  +.  +:  ++;++  ++'++   ++'+'  +   +. 
-      +`  +.  +:   +++    +++.   ,++'   +   +. 
+
+      +++.+++:   ,+++    +++;   '+++    +++.
+      ++.+++.++   ++.++  ++,'+  `+',++  ++,++
+      +`  +,  +: .+  .+  +;  +; '+  '+  +`  +`
+      +`  +.  +: ,+  `+  ++  +; '+  ;+  +   +.
+      +`  +.  +: ,+  `+   +'    '+      +   +.
+      +`  +.  +: ,+  `+   :+.   '+      +++++.
+      +`  +.  +: ,+  `+    ++   '+      +++++.
+      +`  +.  +: ,+  `+     ++  '+      +   +.
+      +`  +.  +: ,+  `+  +:  +: '+  ;+  +   +.
+      +`  +.  +: .+  .+  +;  +; '+  '+  +   +.
+      +`  +.  +:  ++;++  ++'++   ++'+'  +   +.
+      +`  +.  +:   +++    +++.   ,++'   +   +.
 [2016-03-30T12:56:57.005Z]  INFO: mosca/14565 on miguel-Dell-System-XPS-L502X: server started (mqtt=1883)
 
 ```
