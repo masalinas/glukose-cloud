@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "glukosedb": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "glukosec",
+    "name": "glukose-cloud",
+    "connector": "mongodb"
+  }
+}
