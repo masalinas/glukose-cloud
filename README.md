@@ -6,7 +6,7 @@ A Hub PaaS solution to concentrate all measures captured by glukose-gateway usin
 
 The Node-red flow measure parser
 
-![glukose-cloud-node](https://cloud.githubusercontent.com/assets/1216181/14145834/9d645260-f695-11e5-92ce-a5cb55e63204.png)
+![glukose-cloud-node](https://cloud.githubusercontent.com/assets/1216181/14145935/169d0f0a-f696-11e5-8575-b1fbdc457ebd.png)
 
 # Infraestructure Techonologies:
 
