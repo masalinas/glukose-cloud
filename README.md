@@ -2,9 +2,13 @@
 
 A SaaS to concentrate all glucose measures using node-RED IBM message broker and MQTT IBM protocol to comunicate with the Glukose Gateways.
 
+![glukose](https://cloud.githubusercontent.com/assets/1216181/14169234/f2774cf8-f726-11e5-9492-744a1575e029.png)
+
+The Glukose Cloud Architecture:
+
 ![glukose_cloud_app](https://cloud.githubusercontent.com/assets/1216181/14146100/c60518c0-f696-11e5-93e1-1eb91aaceb3f.png)
 
-The Cloud node-RED Designer
+The Glukose Cloud node-RED Designer:
 
 ![glukose-cloud-node](https://cloud.githubusercontent.com/assets/1216181/14145935/169d0f0a-f696-11e5-8575-b1fbdc457ebd.png)
 
